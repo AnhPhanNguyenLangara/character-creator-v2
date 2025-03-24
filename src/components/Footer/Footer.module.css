@@ -6,6 +6,6 @@
   text-align: center;
 
   a {
-    color: hsl(0, 0%, 100%);
+    color: inherit;
   }
 }
