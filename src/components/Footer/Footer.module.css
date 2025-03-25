@@ -9,3 +9,10 @@
     color: inherit;
   }
 }
+
+@media (width <= 600px) {
+  .footer {
+    z-index: 2;
+    padding: 24px;
+  }
+}

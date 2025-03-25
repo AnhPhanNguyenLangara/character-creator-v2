@@ -37,6 +37,40 @@
   width: 50%;
 }
 
+@media (width <= 600px) {
+  .characterEditor {
+    height: 100svh;
+  }
+
+  .maxWidthWrapper {
+    z-index: 1;
+  }
+
+  .controlColumn {
+    position: fixed;
+    bottom: 20%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    gap: 16px;
+
+    & > * {
+      width: 75%;
+      margin-bottom: 0;
+    }
+  }
+
+  .characterWrapper {
+    left: 0;
+    right: 0;
+  }
+
+  .header {
+    visibility: hidden;
+  }
+}
+
 .perspectiveEffect {
   position: fixed;
   inset: 0;
